@@ -1,0 +1,2 @@
+defmodule Cqs do
+end
