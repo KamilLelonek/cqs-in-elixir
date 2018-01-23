@@ -14,6 +14,7 @@ defmodule Cqs.Mixfile do
   def application do
     [
       extra_applications: [:logger],
+      mod: {Cqs.Application, []},
     ]
   end
 
