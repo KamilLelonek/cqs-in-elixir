@@ -20,6 +20,8 @@ defmodule Cqs.Mixfile do
 
   defp deps do
     [
+      {:postgrex, "~> 0.13"},
+      {:ecto, "~> 2.1"},
     ]
   end
 end
