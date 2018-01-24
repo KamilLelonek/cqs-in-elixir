@@ -6,7 +6,7 @@ defmodule Cqs.Application do
 
   defp children do
     [
-
+      Cqs.Repo,
     ]
   end
 
