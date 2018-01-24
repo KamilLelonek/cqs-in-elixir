@@ -24,3 +24,7 @@ be found at [https://hexdocs.pm/cqs](https://hexdocs.pm/cqs).
 To setup the database, execute:
 
     mix ecto.create
+
+To run all migrations, execute:
+
+    mix ecto.migrate
