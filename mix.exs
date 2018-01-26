@@ -8,6 +8,7 @@ defmodule Cqs.Mixfile do
       elixir:          "~> 1.5",
       start_permanent: Mix.env() == :prod,
       deps:            deps(),
+      elixirc_paths:   elixirc_paths(Mix.env()),
     ]
   end
 
@@ -24,4 +25,7 @@ defmodule Cqs.Mixfile do
       {:ecto, "~> 2.1"},
     ]
   end
+
+  defp elixirc_paths(:test), do: ["lib", "test/support"]
+  defp elixirc_paths(_),     do: ["lib"]
 end
