@@ -29,6 +29,12 @@ To run all migrations, execute:
 
     mix ecto.migrate
 
+## Tests
+
+To execute the entire test suite, run:
+
+    mix test
+
 ## Usage
 
 The project is described as a blogpost. You can find it here: https://blog.lelonek.me/command-query-separation-in-elixir-ac742e60fc7d
