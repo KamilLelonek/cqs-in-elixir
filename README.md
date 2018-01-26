@@ -19,7 +19,7 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/cqs](https://hexdocs.pm/cqs).
 
-## Usage
+## Development
 
 To setup the database, execute:
 
@@ -28,3 +28,7 @@ To setup the database, execute:
 To run all migrations, execute:
 
     mix ecto.migrate
+
+## Usage
+
+The project is described as a blogpost. You can find it here: https://blog.lelonek.me/command-query-separation-in-elixir-ac742e60fc7d
